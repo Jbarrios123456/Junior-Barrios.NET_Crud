@@ -9,8 +9,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<DbEmpresaContext>(Options =>
+//Junior Barrios - 7690-25-16187
+builder.Services.AddDbContext<apiContext>(Options =>
 {
     Options.UseMySql(builder.Configuration.GetConnectionString("conexion"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("conexion")));
          

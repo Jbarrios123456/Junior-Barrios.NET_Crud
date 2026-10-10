@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 
 namespace PrimerAPI.Models;
-
-public partial class Cliente
+//Junior Barrios - 7690-25-16187
+public partial class clientes
 {
-    public int IdClientes { get; set; }
+    public int id_clientes { get; set; }
 
-    public string? Nombre { get; set; }
+    public string? nombre { get; set; }
 
-    public string? Apellidos { get; set; }
+    public string? apellido { get; set; }
 
-    public string? Telefono { get; set; }
 }

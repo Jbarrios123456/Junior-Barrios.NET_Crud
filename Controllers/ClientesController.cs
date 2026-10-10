@@ -2,13 +2,14 @@
 using PrimerAPI.Models;
 
 namespace PrimerAPI.Controllers
+    //Junior Barrios - 7690-25-16187
 {
     [ApiController]
     [Route("[controller]")]
     public class ClientesController : Controller
     {
-        private readonly DbEmpresaContext _context;
-        public ClientesController(DbEmpresaContext ctx)
+        private readonly apiContext _context;
+        public ClientesController(apiContext ctx)
         {
             _context = ctx;
         }
