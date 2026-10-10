@@ -6,4 +6,6 @@
 ### Adjunto capturas
 
 <img width="1259" height="581" alt="image" src="https://github.com/user-attachments/assets/5c89f7f6-6629-4b15-8c83-247f4ad13093" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/253881fa-dce0-4168-b36d-ba3a22095407" />
+
 
